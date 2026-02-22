@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hancurkan Portofolio Ini</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div id="custom-cursor">💣</div>
+
+  <nav class="navbar">
+    <div class="logo">Dandi.</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="btn-dark login-btn">Mari Diskusi</button>
+  </nav>
+
+  <main id="portfolio-ui">
+    
+    <section id="hero" class="hero section-padding">
+      <div class="hero-content">
+        <h1>Halo, Saya <br>M. Dandi Fadli</h1>
+        <p>Seorang LLM engineer, berpengalaman dalam fine-tuning, RAG, dan tokenizer</p>
+        <div class="cta-group">
+          <button class="btn-dark">Lihat Karya Saya</button>
+        </div>
+      </div>
+      <div class="hero-image-placeholder">
+        <div class="floating-badge badge-left">⭐ 5.0<br><span>Rating</span></div>
+        <div class="circle-bg color-yellow">
+          <div style="font-size: 11rem;">👦🏻</div> 
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section section-padding">
+      <div class="about-image">
+        <div class="square-bg color-purple">
+          <div style="font-size: 10rem;">🤖</div>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="section-title">About Me</h2>
+        <p>Saya adalah LLM Engineer yang berfokus pada pengembangan sistem Artificial Intelligence berbasis Large Language Model (LLM) untuk menciptakan solusi cerdas, efisien, dan scalable. </p>
+        <p>Dengan menggabungkan teknologi NLP, Retrieval-Augmented Generation (RAG), dan AI automation, saya membangun aplikasi yang mampu memahami, menganalisis, serta menghasilkan informasi secara akurat sesuai kebutuhan pengguna.</p>
+      </div>
+    </section>
+
+    <section id="services" class="services-section section-padding">
+      <h2 class="section-title text-center">My Services</h2>
+      <div class="services-grid">
+        <div class="service-card color-purple">
+          <h3>AI chatbot Development</h3>
+          <p>Menciptakan Pembuatan chatbot berbasis LLM, Customer support bot, Internal assistant perusahaan, FAQ automation</p>
+        </div>
+        <div class="service-card color-blue">
+          <h3>RAG (Retrieval-Augmented Generation) System</h3>
+          <p>Chatbot berbasis dokumen perusahaan, Knowledge base AI, PDF / database Q&A system, Sistem tanya jawab data internal</p>
+        </div>
+        <div class="service-card color-red">
+          <h3>AI Web App Development</h3>
+          <p>Dashboard AI, Chat interface custom, Admin panel AI system, Deployment production-ready</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section section-padding">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="subtitle">Geser untuk melihat proyek lainnya →</p>
+      
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <div class="project-img color-yellow">AI Customer Support Chatbot</div>
+            <div class="project-info">
+              <h3>Data produk perusahan</h3>
+              <p>llama, langchain, docker</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-img color-blue">RAG Document Assistant</div>
+            <div class="project-info">
+              <h3>Pembaca dokumen</h3>
+              <p>llama, chroma, langchain RAG pipline</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-img color-purple">Knowledge Base AI Perusahaan</div>
+            <div class="project-info">
+              <h3>SOP perusahaan</h3>
+              <p>LLM API, vector base, redis</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="project-img color-red">AI Content Generator</div>
+            <div class="project-info">
+              <h3>Pembuat Artikel Otomatis</h3>
+              <p>OpenAi API, Python automation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding">
+      <div class="contact-box color-yellow">
+        <h2 class="section-title">Ready to start a project?</h2>
+        <p>Mari diskusikan ide Anda dan ubah menjadi kenyataan.</p>
+        <form class="contact-form">
+          <input type="text" placeholder="Nama Anda" required>
+          <input type="email" placeholder="Email Anda" required>
+          <textarea rows="4" placeholder="Pesan Anda" required></textarea>
+          <button type="button" class="btn-dark submit-btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="logo">Dandi.</div>
+      <p>© 2026 Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <button id="destroy-btn">Hancurkan Web Ini</button>
+  <canvas id="game-canvas"></canvas>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
